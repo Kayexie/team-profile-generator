@@ -40,7 +40,7 @@ inquirer
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Name: ${manager.name}</li>
         <li class="list-group-item">Employee ID:${manager.id} </li>
-        <li class="list-group-item">Email Address: ${manager.email}</li>
+        <li class="list-group-item">Email Address: <a a href="${manager.email}">${manager.email}</a></li>
         <li class="list-group-item">Office Number: ${manager.officeNumber}</li>
       </ul>
   </div>
@@ -84,7 +84,7 @@ function internInfo() {
    <ul class="list-group list-group-flush">
      <li class="list-group-item">Name: ${intern.name}</li>
      <li class="list-group-item">Employee ID: ${intern.id}</li>
-     <li class="list-group-item">Email Address: ${intern.email}</li>
+     <li class="list-group-item">Email Address: <a a href="${intern.email}">${intern.email}</a></li>
      <li class="list-group-item">School: ${intern.school}</li>
    </ul>
    </div>
@@ -127,7 +127,7 @@ function internInfo() {
       <ul class="list-group list-group-flush">
         <li class="list-group-item">Name: ${engineer.name}</li>
         <li class="list-group-item">Employee ID: ${engineer.id}</li>
-        <li class="list-group-item">Email Address: ${engineer.email}</li>
+        <li class="list-group-item">Email Address: <a a href="${engineer.email}">${engineer.email}</a></li>
         <li class="list-group-item">Github Username: <a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
       </ul>
       </div>
